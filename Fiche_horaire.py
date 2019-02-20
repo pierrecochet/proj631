@@ -4,12 +4,14 @@ Created on Mon Feb  4 14:09:43 2019
 
 @author: cochetp
 """
-import calendar
+import datetime
+
 
 class Fiche_horaire:
     
-    def __init__(self,horaire):
+    def __init__(self,horaire,arret,ligne):
         self.horaire = horaire
+        self.arret = arret
+        self.ligne = ligne
+
         
-    def isSunday(self,date):
-        return (date == )
