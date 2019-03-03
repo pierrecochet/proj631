@@ -10,5 +10,9 @@ class Arret :
     
     def __init__(self, label):
         self.label = label
-    
-        
+        self.cout = -1
+        self.listHoraires = list()
+
+    def setHoraire(self,listHoraires):
+        self.listHoraires.append(listHoraires)
+

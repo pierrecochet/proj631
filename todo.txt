@@ -1,0 +1,19 @@
+Dans le fichier Ligne mettre le poids des arcs --- FAIT
+MaJ la liste de poid dans le fichier Réseau jeter un oeil parce que je crois que j'ai fait un truc
+Idée : Mettre plusieurs horaire et refaire appel à la fonction pour mettre à jour la list je crois que j'ai essayer de
+faire ça met l'appel de la fonction se fait avant que je mette à jour la listHoraire voir Réseau ligne 54
+
+-Dijkstra
+- Donne un arrêt en input
+- cherche dans les ArretsAvs de listArcsG l'arret correspondant
+- Calcule coût de son/ses voisin(s) puis de ses voisins de voisins
+
+pour voir le chemin le plus court il faut prendre faire l'aglo dans une direction en premier lieu
+puis dans l'autre
+C'est lourd mais ça devrait fonctionner ou alors les ligne dans l'autre sens sont des lignes bis comptées comme des ligens différentes
+
+
+
+
+CE que j'aurais pu faire :
+-mettre les arcs en dictionnaire pour avoir le poid affilié à chaque arrêt dans le cas où n arrêts mènent au même ou inversement
